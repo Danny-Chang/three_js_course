@@ -19,7 +19,7 @@ class App{
 
 		this.renderer.setAnimationLoop( this.render.bind(this) );
         const geometry = new THREE.BoxBufferGeometry();
-		const material = new THREE.MeshStandardMaterial({Color: 0xff0000});
+		const material = new THREE.MeshStandardMaterial({color: 0xff0000});
 
 		this.mesh = new THREE.Mesh(geometry,material);
 		this.scene.add( this.mesh );
