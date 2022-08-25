@@ -10,7 +10,7 @@ class App{
 	}	
     
     resize(){
-        
+        console.log(this);
     }
     
 	render( ) {   
